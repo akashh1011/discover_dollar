@@ -33,6 +33,6 @@ jobs:
         username: ubuntu
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd CRUD-DD-TASK-MEAN-APP
+          cd discover_dollar
           docker-compose pull
           docker-compose up -d
