@@ -9,7 +9,7 @@ services:
     restart: always
 
   backend:
-    image: akashh1011/mean-backend:latest
+    image: akash060302/mean-backend:latest
     container_name: backend
     depends_on:
       - mongo
@@ -18,7 +18,7 @@ services:
     restart: always
 
   frontend:
-    image: akashh1011/mean-frontend:latest
+    image: akash060302/mean-frontend:latest
     container_name: frontend
     restart: always
 
