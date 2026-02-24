@@ -34,5 +34,5 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         script: |
           cd discover_dollar
-          docker-compose pull
-          docker-compose up -d
+          docker compose pull
+          docker compose up -d
